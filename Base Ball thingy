@@ -1,0 +1,7 @@
+import urllib.request
+
+url = urllib.request.urlopen('http://pr.louisianasportsline.com/BBPR/BB_PR.htm')
+rw = (url.read())
+
+
+print (rw)
